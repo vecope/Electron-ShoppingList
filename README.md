@@ -21,7 +21,7 @@ $ npm install
 So... You want to check it? Just run Start!
 
 ```
-npm-start
+$ npm-start
 ```
 
 ## Deployment
@@ -29,22 +29,22 @@ npm-start
 However, if you want to build for production, you can use any of the three commands specified in the package.json file, these are used for exporting for Windows, Mac, or Linux respectively.
 
 ```
-npm run package-win
+$ npm run package-win
 ```
 
 ```
-npm run package-mac
+$ npm run package-mac
 ```
 
 ```
-npm run package-linux
+$ npm run package-linux
 ```
 
 ## Built With
 
--   [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
--   [Maven](https://maven.apache.org/) - Dependency Management
--   [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+-   [Electron](https://www.electronjs.org/) - The web framework used
+-   [Electron Packager](https://github.com/electron/electron-packager) - Build management
+-   [Materialize](https://materializecss.com) - Used for quick styling
 
 ## Versioning
 
